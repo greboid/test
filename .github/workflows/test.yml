@@ -13,7 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     needs:
       - base
-      - base
     steps:
       - run: echo Middle
   end:
